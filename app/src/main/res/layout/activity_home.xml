@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBlue"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".UserInterface.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:src="@drawable/be_logo"/>
+
+            <ImageView
+                android:id="@+id/status"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="12dp"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/cornus"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/sign_out"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/sign_out"
+                android:layout_alignParentEnd="true"
+                app:tint="@color/colorWhite" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/kirsty"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:text="GIVEAWAY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/cornus"
+        android:textSize="20sp"
+        android:textColor="@color/colorLightGrey"
+        android:text="Blazed Enigma will give 6 Valorant battlepass in this act in 01 January 2022. Join our Discord for more details."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kirsty"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:text="COUNTDOWN"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="3dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_white"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:textSize="30sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:text="32"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold"
+                android:text="DAYS"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_white"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:textSize="30sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:text="23"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold"
+                android:text="HOURS"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_white"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:textSize="30sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:text="45"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold"
+                android:text="MINUTES"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_white"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/seconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kirsty"
+                android:textSize="30sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:text="56"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/kirsty"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold"
+                android:text="SECONDS"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/discord"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/cornus"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:text="https://discord.gg/blazedenigma"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/facebook"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/cornus"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:text="https://facebook.com/blazed.enigma.esports"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cornus"
+            android:textSize="16sp"
+            android:textColor="@color/colorLightGrey"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="Copyright ©2017-2021 Blazed Enigma"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingEnd="3dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/copyright"
+            android:src="@drawable/be_games"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

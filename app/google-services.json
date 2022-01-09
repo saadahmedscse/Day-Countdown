@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704772812833",
+    "project_id": "blazed-enigma",
+    "storage_bucket": "blazed-enigma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704772812833:android:257436b7c4309758b07360",
+        "android_client_info": {
+          "package_name": "com.caffeine.blazedenigma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704772812833-7f87ieovriqvmeu0q5qms24b3r34qns2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKWlGH1ud4mCqsBf4jTp6xg2UJ0d5I1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704772812833-7f87ieovriqvmeu0q5qms24b3r34qns2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
